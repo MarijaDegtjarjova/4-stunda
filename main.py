@@ -27,3 +27,12 @@ skait=-5
 while skait<=25:
   print(cos(skait)**2)
   skait+=2
+
+
+teksts=input("ievadi tekstu")
+skaititajs=0
+for burts in teksts:
+  if burts=="c":
+    skaititajs+=1
+print(("Burtu a skaits ="),skaittitajs)
+  
